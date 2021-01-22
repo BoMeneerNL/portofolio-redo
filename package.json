@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tw:build":"tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css",
-    "tw:prod": "NODE_ENV=production postcss build ./src/css/tailwind.css - ./public/css/tailwind.css"    
+    "tw:build": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw:prod": "NODE_ENV=production postcss build ./src/css/tailwind.css - ./public/css/tailwind.css"
   },
   "repository": {
     "type": "git",
