@@ -1,6 +1,6 @@
 {
   "name": "portofolio-redo",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
     "tw:build": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/BoMeneerNL/portofolio-redo.git"
   },
-  "author": "",
+  "author": "BoMeneerNL",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BoMeneerNL/portofolio-redo/issues"
