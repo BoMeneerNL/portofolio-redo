@@ -4,12 +4,14 @@
     CMDWebsiteLoader
 	coninf
     roller
+    write-read
+    readwriter
+    Winsup
+    Macup
 }
 
 @errors
 {
     404: 404.error.cwl
 	access_type_restricted: fo.cwl
-
-
 }

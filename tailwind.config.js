@@ -3,7 +3,7 @@ module.exports = {
     mode: 'layers',
     content: ['./public/**/*.html/'],
   },
-  darkMode: 'media',
+  darkMode: 'class',
   theme: {
     extend: {},
   },

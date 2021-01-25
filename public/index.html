@@ -1,6 +1,5 @@
 <!doctype html>
-<html>
-<html lang="nl">
+<html lang="nl" class="dark">
 
 <head>
     <link href="scripts/css/onstart.min.css" rel="stylesheet">
@@ -11,7 +10,7 @@
 </head>
 <body>
     <script type="text/javascript" src="scripts/js/onstart.min.js"></script>
-    <script type="text/javascript" src="scripts/js/lightdark.min.js"></script>
+    <script type="text/javascript" src="scripts/js/lightdark.visual.min.js"></script>
     <div id="loading">
         <h1>Please wait a moment, the page is loading</h1>
     </div>
@@ -27,15 +26,15 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="#" class="bg-gray-500 dark:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+              <a href="#" class="bg-gray-500 dark:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">PH_1</a>
 
-              <a href="#" class="text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 dark:text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+              <a href="#" class="text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 dark:text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">PH_2</a>
 
-              <a href="#" class="text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 dark:text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+              <a href="#" class="text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 dark:text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">PH_3</a>
 
-              <a href="#" class="text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 dark:text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a>
+              <a href="#" class="text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 dark:text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">PH_4</a>
 
-              <a href="#" class="text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 dark:text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Reports</a>
+              <a href="#" class="text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 dark:text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">PH_5</a>
             </div>
           </div>
         </div>
@@ -71,40 +70,35 @@
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
 
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Reports</a>
+        
       </div>
-      <div class="pt-4 pb-3 border-t border-gray-700">
-        <div class="flex items-center px-5">
-          <div class="flex-shrink-0">
-          </div>
-          <div class="ml-3">
-            <div class="text-base font-medium leading-none text-white">Tom Cook</div>
-            <div class="text-sm font-medium leading-none text-gray-400">tom@example.com</div>
-          </div>
-          <button class="ml-auto bg-gray-800 flex-shrink-0 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-            <span class="sr-only">View notifications</span>
-            <!-- Heroicon name: bell -->
-            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-            </svg>
-          </button>
-        </div>
-
+    </div>
+    <div class="flex flex-col space-y-12 m-auto max-w-5xl mt-5">
+      <div class="flex justify-end items-center space-x-2">
+        <span class="text-sm text-gray-800">Light</span>
+        <div>
+      <input type="checkbox" name="" id="toggle" class="hidden" />
+      <label for="toggle">
+      <div class="w-9 h-5 flex items-center bg-gray-300 dark:bg-gray-900 rounded-full p-1">
+        <div class="toggle-dot w-4 h-4 bg-white rounded-full shadow-md transform duration-300 ease-in-out"></div>
+      </div>
+      
+      </div></label>
+      <span class="text-sm text-gray-400">Dark</span>
       </div>
     </div>
   </nav>
 
   <header class="bg-white shadow">
-    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-      <h1 class="text-3xl font-bold leading-tight text-gray-900">
-        Dashboard
-      </h1>
     </div>
   </header>
   <main>
     <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
       <!-- Replace with your content -->
       <div class="px-4 py-6 sm:px-0">
-        <div class="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
+        <div class="border-4 border-dashed border-gray-200 rounded-lg h-96">
+          
+        </div>
       </div>
       <!-- /End replace -->
     </div>
@@ -112,5 +106,6 @@
 </div>
 
     </div>
+    <script type="text/javascript" src="scripts/js/lightdark.toggle.js"></script>
 </body>
 </html>
