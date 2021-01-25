@@ -5,12 +5,11 @@
     <link href="scripts/css/onstart.min.css" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="scripts/css/tailwind.css" rel="stylesheet">
+    <link href="scripts/css/tailwind.min.css" rel="stylesheet">
     <title>PH.titel</title>
 </head>
 <body>
     <script type="text/javascript" src="scripts/js/onstart.min.js"></script>
-    <script type="text/javascript" src="scripts/js/lightdark.visual.min.js"></script>
     <div id="loading">
         <h1>Please wait a moment, the page is loading</h1>
     </div>
@@ -23,6 +22,7 @@
           <div class="flex-shrink-0">
             <img class="h-8 w-8" src="" alt="Logo_redr">
           </div>
+          <nav>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
@@ -38,7 +38,7 @@
             </div>
           </div>
         </div>
-        
+      </nav>
         <div class="-mr-2 flex md:hidden">
           <!-- Mobile menu button -->
           <button class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
@@ -59,6 +59,7 @@
       </div>
     </div>
     <div class="hidden md:hidden">
+      <nav>
       <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Dashboard</a>
@@ -75,7 +76,7 @@
     </div>
     <div class="flex flex-col space-y-12 m-auto max-w-5xl mt-5">
       <div class="flex justify-end items-center space-x-2">
-        <span class="text-sm text-gray-800">Light</span>
+        <span class="text-sm text-gray-800 dark:text-gray-400"><i class="fas fa-sun"></i>Light</span>
         <div>
       <input type="checkbox" name="" id="toggle" class="hidden" />
       <label for="toggle">
@@ -84,11 +85,10 @@
       </div>
       
       </div></label>
-      <span class="text-sm text-gray-400">Dark</span>
+      <span class="text-sm text-gray-800 dark:text-gray-400">Dark</span>
       </div>
     </div>
   </nav>
-
   <header class="bg-white shadow">
     </div>
   </header>
