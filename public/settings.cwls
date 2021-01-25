@@ -1,0 +1,15 @@
+!!cwlc:SSB_BWS
+
+@libs(::end_add:.lib){
+    CMDWebsiteLoader
+	coninf
+    roller
+}
+
+@errors
+{
+    404: 404.error.cwl
+	access_type_restricted: fo.cwl
+
+
+}
