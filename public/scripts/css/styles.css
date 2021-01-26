@@ -13,3 +13,8 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
+.footer{
+  text-align: center;
+  padding-left: 5px; 
+  padding-right: 5px;
+}
