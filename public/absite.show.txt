@@ -1,0 +1,7 @@
+this site uses, 
+    JHTMLF(FTW) v1.0
+    TailwindCSS v2.0.2
+    PostCSS v8.2.4
+    PostCSS-cli v8.3.1
+    AutoPrefixer v10.2.3
+    CSSNano v4.1.10
