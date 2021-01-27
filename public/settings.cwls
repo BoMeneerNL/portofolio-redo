@@ -15,3 +15,9 @@
     404: 404.error.cwl
 	access_type_restricted: fo.cwl
 }
+
+@sonstart{
+    index.cwl
+    404.error.cwl
+
+}
