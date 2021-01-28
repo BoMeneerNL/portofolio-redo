@@ -95,4 +95,4 @@ Options All -Indexes
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)\.html$ /$1 [L,R=301]
-ErrorDocument 404 error404.html
+ErrorDocument 404 404.html
