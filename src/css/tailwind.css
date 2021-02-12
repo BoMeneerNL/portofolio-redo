@@ -1,4 +1,0 @@
-@import "tailwindcss/base";
-#toggle:checked ~ label div.toggle-dot{@apply translate-x-2;}
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
