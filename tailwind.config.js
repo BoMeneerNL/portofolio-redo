@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: false,
-    content: ['./scripts/phpstatic/*.php', './scripts/phpstatic/errors/*.php', './scripts/js/*.js', './*.php', './scripts/phpbg/*.php', './scripts/phpbg/sql-pdo/*.php'],
+    content: ['./scripts/php/*.php', './*.php'],
     options: {
       keyframes: true,
     },
